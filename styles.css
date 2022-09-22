@@ -1,0 +1,92 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 35px;
+    color: #fff;
+    background-color: #333;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+h1 {
+    font-size: 80px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+form {
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+input {
+    display: block;
+    font-size: 25px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    padding: 20px 10px;
+    border-radius: 10px;
+    width: 25%;
+    color: #333333;
+}
+
+label  {
+    margin-bottom: 10px;
+}
+
+.wrap-btn {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+
+.btn {
+    border: 2px solid #fff;
+    border-radius: 10px;
+    padding: 20px 60px;
+    color: #fff;
+}
+
+form .btn {
+    margin-top: 25px;
+    width: 15%;
+    margin-bottom: 0;
+    background-color: #333;
+}
+
+.btn:hover {
+    background-color: #00FF7F;
+    color: #333;
+    border: 2px solid #00FF7F;
+    transform: scale(1.2);
+    transition: all 0.3s ease-in-out;
+}
+
+.btn:hover a {
+    color: #333;
+}
+
+.btn:not(:hover) {
+    border: 2px solid #fff;
+    color: #fff;
+    transform: scale(1);
+    transition: all 0.3s ease-in-out;
+}
+
+.mistake-message {
+    position: absolute;
+    left: 1200px;
+}
+
+.link-to-registration:hover {
+    color: #00FF7F;
+    transition: all 0.3s ease-in-out;
+}
+
+
+
